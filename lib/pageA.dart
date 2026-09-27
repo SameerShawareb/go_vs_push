@@ -13,8 +13,8 @@ class PageA extends StatelessWidget{
       ),
       body: Center(
         child: ElevatedButton(
-          //onPressed: () => context.goNamed(RouteNames.pageB),
-          onPressed: () => context.pushNamed(RouteNames.pageB),
+          onPressed: () => context.goNamed(RouteNames.pageB),
+          //onPressed: () => context.pushNamed(RouteNames.pageB),
           child: const Text('Go to Page B'),
         ),
       ),

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:go_vs_push/pageA.dart';
-import 'package:go_vs_push/pageB.dart';
-import 'package:go_vs_push/pageC.dart';
-import 'package:go_vs_push/route_names.dart';
+import 'pageA.dart';
+import 'pageB.dart';
+import 'pageC.dart';
+import 'route_names.dart';
 
 void main() {
   runApp( MyApp());
@@ -39,6 +39,5 @@ class MyApp extends StatelessWidget {
     ]
   );
 
-  MyApp({super.key});
 }
 
