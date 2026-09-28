@@ -28,12 +28,12 @@ class MyApp extends StatelessWidget {
       ),
       GoRoute(
         name: RouteNames.pageB,
-        path: 'pageB',
+        path: '/pageB',
         builder: (context, state) => const PageB(),
       ),
       GoRoute(
         name: RouteNames.pageC,
-        path: 'pageC',
+        path: '/pageC',
         builder: (context, state) => const PageC(),
       )
     ]
